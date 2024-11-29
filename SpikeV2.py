@@ -12,7 +12,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta, timezone
 
 # Database Configuration
-MONGO_URI = 'mongodb+srv://VirtualVenture:Shaluddos@cluster1.b02ct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
+MONGO_URI = 'mongodb+srv://godb.net/?retryWrites=true&w=majority&appName=Cluster1'
 client = MongoClient(MONGO_URI)
 db = client['Harvinder']
 users_collection = db['newPAID']
